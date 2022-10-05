@@ -63,12 +63,11 @@ nav ul li a:hover {
 
 .quote{
     max-width: 700px;
-    color: aliceblue;
     display: flex;
     padding: 10px;
     outline: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 10px auto ;
     background-color: rgba(0,0,0,0.6);
 }
 
@@ -77,6 +76,8 @@ nav ul li a:hover {
 }
 .borderSect {
     border-top: 4px solid rgba(255,137,4,0.6);
+    color: aliceblue;
+    background-color: rgba(0,0,0,0.3);
 }
 .backg{
     background-image: url(https://media.moddb.com/images/games/1/80/79536/2_1.1.jpg);
@@ -97,12 +98,26 @@ nav ul li a:hover {
 
 .center-div
 {
-    margin: auto ;
+    margin: auto 10px;
 }
 
 .contur
 {
     color: aliceblue;
-    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
+}
+
+.scientists
+{
+    display: flex;
+    padding: 10px;
+    outline: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px auto ;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.scientists .pic{
+    width: 5%;
 }
