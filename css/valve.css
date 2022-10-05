@@ -118,6 +118,6 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,0.6);
 }
 
-.scientists .pic{
-    width: 5%;
+.pic{
+    width: 100%;
 }
