@@ -3,16 +3,35 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.container2 {
+    max-width: 900px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+}
+
 .menu {
     display: flex;
     align-items: center;
-    opacity: 0.6;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: rgba(255, 137, 4, 0.6);
+    background-color: rgba(100, 149, 237, 0.6);
     outline: 3px solid rgba(0, 0, 0,.8);
-}nav ul li {
+}
+
+nav ul li {
      position: relative;
  }
 
@@ -21,18 +40,11 @@ nav ul li a {
     padding: 20px 20px;
     text-decoration: none;
     color: black;
-    width: 160px;
     outline: 3px solid rgba(0, 0, 0,.8);
 }
 
 nav ul li a:hover {
-    background-color: rgb(90, 90, 90);
-}
-
-
-.menu, .submenu {
-    list-style: none;
-
+    background-color: rgb(100, 149, 237);
 }
 
 .wrapper {
@@ -47,53 +59,85 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.pict1{
-    flex-grow: 1;
+/*Стиль для заголовков*/
+.titleCenter {
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: rgb(2 2 2) 10px 10px 7px;
 }
-.pict2{}
 
 .greeting{
     display: block;
     padding: 10px;
-
 }
+
 .greeting .pic{
-    width: 55%;
+    margin: 20px auto;
+    width: 35%;
 }
 
 .quote{
     max-width: 700px;
     display: flex;
     padding: 10px;
+    margin: 10px auto ;
+}
+
+.fon{
+    padding: 10px;
     outline: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
-    margin: 10px auto ;
     background-color: rgba(0,0,0,0.6);
 }
 
-.quote .pic{
-    width: 35%;
+.fon .SizePortrait{
+    width: 27%;
 }
+
+.fon .SizePortrait img{
+    width: 100%;
+}
+
+.fon .SizeQuote{
+    width: 70%;
+}
+
+
 .borderSect {
-    border-top: 4px solid rgba(255,137,4,0.6);
+    border-top: 4px solid rgba(100, 149, 237,0.6);
     color: aliceblue;
     background-color: rgba(0,0,0,0.3);
 }
+
 .backg{
-    background-image: url(https://media.moddb.com/images/games/1/80/79536/2_1.1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-clip: content-box;
+    background-size: cover;
 }
-.box {
-    flex-grow: 1;
-
-    border: 3px solid rgba(0,0,0,.2);
+.backg2{
+    background: url(http://fictionbrands.org/wp-content/uploads/2016/09/blackmesa-login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 45%;
+}
+.backg2 input{
+    font-size: 10pt;
+    margin-left: 330px;
+    width: 100px;
+    height: 15px
 }
 
-.box1 {
-    flex-grow: 6;
-    border: 3px solid rgba(0,0,0,.2);
+/*Отступы для кнопки входа в аккаунт*/
+.enterButton {
+    margin-left: 350px;
+    background: #0098e8;
+    border-radius: 5px;
 }
 
 .center-div
@@ -104,20 +148,150 @@ nav ul li a:hover {
 .contur
 {
     color: aliceblue;
-    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
 
-.scientists
+.personnel
 {
-    display: flex;
-    padding: 10px;
-    outline: 3px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    margin: 10px auto ;
-    background-color: rgba(0,0,0,0.6);
+    position: center;
 }
 
-.pic{
+.scientists .pic{
+    width: 40%;
+}
+
+.container3{
+    max-width: 1300px;
+    margin: 30px auto
+}
+
+.scrolling-wrapper {
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+footer {
+    background-color: rgb(100, 149, 237);
+    padding: 15px;
+    color: aliceblue;
+}
+
+.before_and_after{
+    width: 49%;
+}
+
+.contur_pic{
+    outline: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.corpInform {
+    height: 250px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.corpInform img {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    align-content: center;
+    width: 10%;
+}
+
+
+/*Часть со списком товаров*/
+.product {
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+
+.product .price {
+    color: #fff;
+    width: 50%;
+    background-color: rgb(100, 149, 237);
+}
+
+.product .text {
     width: 100%;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: linear-gradient(rgb(62, 62, 65), rgb(48, 44, 45));
+}
+
+.product .pictSect {
+    width: 100%;
+    background: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.product .pictSect img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hover-effect-btn {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background 0.5s ease;
+}
+.hover-effect-btn:hover .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Настройка цвета и прозрачности для блока с заголовком при наведении */
+}
+.title {
+    position: absolute;
+    width: 100%;
+    top: 25%; /* Отступ сверху */
+    text-align: center;
+    text-transform: uppercase; /* Заглавные буквы */
+    color: white; /* Цвет заголовка */
+    z-index: 1;
+    transition: top .5s ease;
+}
+.hover-effect-btn:hover .title {
+    top: 10%; /* Отступ сверху при наведении */
+}
+.button {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top: 65%; /* Отступ сверху */
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+.hover-effect-btn:hover .button {
+    opacity: 1;
+}
+
+.price-Button{
+    padding: 10px 40px; /* Отступ */
+    text-align: center;
+    background: rgb(100, 149, 237); /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    border: 1px solid black; /* Ширина, стиль и цвет границы */
+    z-index: 1;
 }

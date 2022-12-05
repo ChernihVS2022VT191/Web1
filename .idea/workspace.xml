@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5232b2c4-00ee-4f06-af73-6b74f1cc02e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/black_mesa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/assets/BlackMesa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/assets/BlackMesaWithFon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/assets/Otis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/assets/blackmesa-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/assets/brin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Before_and_after/Before_and_after.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Block/Block_with_text.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Heading/Heading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Heading/Subtitle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Login/LoginBlock.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Main/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Main/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Product/Product.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Product/ProductsLine.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Quite/Quote.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Quite/Quote_with_image.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/components/Scroll/Scroll.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/views/AboutView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/views/HomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/views/LoginView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/views/ProductView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/views/ScientistsView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/src/views/SecurityView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_mesa/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/valve.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/valve.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v4.html" beforeDir="false" afterPath="$PROJECT_DIR$/v4.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HPYBwKpkD6QFtuDMISN9qIC8XH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/voffc/OneDrive/Desktop/Nikita_web/FirstWebProject/untitlitled_lab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\voffc\OneDrive\Desktop\Web1" />
+      <recent name="C:\Users\voffc\OneDrive\Desktop\Web1\black_mesa" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5232b2c4-00ee-4f06-af73-6b74f1cc02e6" name="Changes" comment="" />
+      <created>1668188060031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668188060031</updated>
+      <workItem from="1668188066668" duration="8091000" />
+      <workItem from="1668270421766" duration="3742000" />
+      <workItem from="1668345773912" duration="5592000" />
+      <workItem from="1668443491642" duration="11182000" />
+      <workItem from="1668533182175" duration="2556000" />
+      <workItem from="1669392427482" duration="4964000" />
+      <workItem from="1669740999197" duration="6764000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
